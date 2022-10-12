@@ -1,0 +1,6 @@
+projects:
+  apache:
+    # should be a git repository with tomtit scenarios
+    path: git@github.com:melezhik/cromtit-cookbook.git
+    action: restart
+    crontab: "0 8 * * 0"
